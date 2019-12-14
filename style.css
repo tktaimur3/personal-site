@@ -1,0 +1,679 @@
+/******************************************
+
+				Fonts
+
+*******************************************/
+
+@font-face {
+	font-family: Bebas;
+	src: url(fonts/Bebas.ttf);
+}
+
+@font-face {
+	font-family: Armata;
+	src: url(fonts/Armata-Regular.otf);
+}
+
+@font-face {
+	font-family: Akashi;
+	src: url(fonts/Akashi.ttf);
+}
+
+@font-face {
+	font-family: Munro;
+	src: url(fonts/Munro.ttf);
+}
+
+@font-face {
+	font-family: Exo;
+	src: url(fonts/Exo-ExtraLight.otf);
+}
+
+@font-face{
+	font-family: OpenSans;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: Bonveno;
+	src: url(fonts/Bonveno.otf);
+}
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+	font-family: CaviarDreams;
+	src: url(fonts/Caviar_Dreams_Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: ColabLight;
+	src: url(fonts/ColabReg.otf);
+}
+
+@font-face {
+	font-family: Josefin;
+	src: url(fonts/JosefinSlab.ttf);
+}
+
+
+/******************************************
+ 
+			Desktop View 
+		
+*******************************************/
+
+body {
+	background: #EBDABD;
+	font-family: ColabLight, Josefin, Bonveno, Sans-Serif;
+	color: #404040;
+}
+
+.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure {
+	text-shadow: 0 0 0.12em #20799C;
+	margin-left: 1%;
+}
+
+figure figcaption {
+	margin-top: -2%;
+	color: #20799C;
+	font-family: Armata, OpenSans, Sans-Serif;
+}
+
+figure h1 {
+	font-family: Bebas, Stencil, Sans-Serif;
+	font-size: 2.2em;
+	color: #20799C;
+}
+
+.input {
+	-webkit-appearance: none;
+    -webkit-border-radius: 0; 
+    border-radius: 0;
+}
+
+.lr a {
+	background-color: #B9AA90;
+	padding: 0.5%;
+	border-radius: 1%;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.lr a:hover {
+	/*padding-top: 0.3%;*/
+	background-color: #A1947E;
+}
+
+.status {
+	margin-left: 1%;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	width: 100%;
+	background-color: #9A9489;
+	display: inline-block;
+	text-align: center;
+	width: 12%;
+	font: 1.4em/1.3em Bonveno, Open Sans, Sans-Serif;
+	float: right;
+	cursor: pointer;
+	margin-left: 0.5%;
+    margin-bottom: 5%;
+	border-top-left-radius: 0.3125em;
+	border-top-right-radius: 0.3125em;
+	transition: background-color 0.2s ease-in-out;
+}
+
+nav li:hover {
+	margin-top: -0.1875em;
+	height: 1.5em;
+	/*text-shadow: 0 0 0.1em #202020;*/
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.post {
+	margin-top: %;
+}
+
+hr {
+	width: 50%;
+}
+
+ul.contact {
+	display: table;
+	text-align: center;
+	list-style-type: none;
+	margin: 2.5% auto;
+}
+
+.contact li {
+	display: inline;
+	margin: 0 3%;
+	padding: 1%;
+	opacity: 0.5;
+	transition: opacity 0.1s ease-in-out;
+}
+
+.contact li:hover {
+	opacity: 1;
+}
+
+.contact img {
+	border: 0.1875em solid white;
+	width: 6%;
+	height: 6%;
+}
+
+.selected {
+	background-color: #B9AA90;
+}
+
+.login {
+	margin-top: -2%;
+}
+
+.register {
+	margin-top: -2%;
+}
+
+article {
+	margin-top: 2.8em;
+	margin-bottom: 6%;
+	width: 99.5%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0.3125em 0 #9A9489;
+	padding: 0 0 0.5% 1.5%;
+}
+
+.selected, article, nav li:hover {
+	color: black;
+	background-color: #B9AA90;
+}
+
+article a:hover, header a:hover {
+	color: white;
+}
+
+article h1, article h2, article h3 {
+	color: #FFF;
+	font-family: CaviarDreams, Exo, Century Gothic, Sans-Serif;
+	padding-top: 0.4375em;
+	font-weight: bold;
+}
+
+article p {
+	padding-bottom: 0.4375em;
+	font-size: 1.25em;
+	font-family: ColabLight, OpenSans, Sans-Serif;
+}
+
+/*article span {
+	font-family: Courier; 
+	background-color: #91897B;
+}*/
+
+iframe {
+	margin-left: 23%;
+}
+
+#name {
+	width: 12%;
+}
+
+form input, form textarea {
+	border-radius: 5px;
+	font-size: 1em;
+	font-family: ColabLight, OpenSans, Sans-Serif;
+}
+
+form textarea {
+	width: 25%;
+	resize: none;
+}
+
+form input, form textarea:focus {
+	outline: 0;
+}
+
+#button {
+	background-color: #FFB037;
+	border: 2px solid #000;
+	border-radius: 0;
+	cursor: pointer;
+	font-family: Akashi, OpenSans, Sans-Serif;
+	font-size: 1.2em;
+}
+
+footer {
+	position: relative;
+	width: 101%;
+	height: 10%;
+	padding-top: 0.5%;
+	text-align: center;
+	font-family: Akashi, Sans-Serif;
+	background-color: rgba(154, 154, 154, 0.5);
+}
+
+/******************************************
+ 
+		Desktop Smaller Screens 
+		
+*******************************************/
+
+/* > 1080px */
+@media screen and (min-width: 1920px) {
+	article {
+		margin-top: 3%;
+	}
+}
+
+/* < 1360px */
+@media screen and (max-width: 1360px) {
+	article {
+		margin-top: 4.5%;
+	}
+
+	nav li {
+		font-size: 1.3em;
+		width: 13%;
+	}
+
+	nav li:hover {
+		height: 1.6em;
+	}
+}
+
+/* < 1280px */
+@media screen and (max-width: 1280px) {
+	article {
+		margin-top: 4.8%;
+	}
+
+	nav li {
+		font-size: 1.3em;
+		width: 13%;
+	}
+
+	nav li:hover {
+		height: 1.6em;
+	}
+}
+
+/* < 1180px */
+@media screen and (max-width: 1180px) { 
+	article {
+		margin-top: 5.2%;
+	}
+	
+	nav li {
+		width: 12.2%;
+		font-size: 1.25em;
+	}
+}
+
+/* < 1070px */
+@media screen and (max-width: 1070px) { 
+	article {
+		margin-top: 5.8%;
+	}
+	
+	nav li {
+		width: 13.4%;
+	}
+}
+
+/* < 1070px */
+@media screen and (max-width: 1070px) { 
+	article {
+		margin-top: 6%;
+	}
+	
+	nav li {
+		width: 14.4%;
+	}
+}
+
+/* < 960px */
+@media screen and (max-width: 960px) { 
+	body {
+		max-width:80%;
+		min-width:800px;
+		max-height:500px;
+		min-height:21%;
+	}	
+
+.content {
+		width: 76%
+	}
+
+	header {
+		margin-bottom: 11%;
+	}
+
+	article {
+		margin-top: 14.8%;
+	}
+	
+	nav li {
+		font-size: 1.3em;
+		width: 16.4%;
+	}
+
+	footer {
+		width: 76%;
+	}
+}
+
+/* < 850px */
+@media screen and (max-width: 850px) { 
+	.content {
+		width: 85%;
+	}
+
+	header {
+		margin-bottom: 7%;
+		text-align: center;
+	}
+
+	article {
+		margin-top: 10.9%;
+	}
+	
+	nav li {
+		font-size: 1.3em;
+		width: 16.4%;
+	}
+
+	footer {
+		width: 84.5%;
+	}
+}
+
+/******************************************
+ 
+		iPad Mini Landscape View 
+		
+*******************************************/
+
+@media screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : landscape) {
+
+	.content {
+		position: relative;
+		width: 99%;
+		margin: 0 auto;
+		right: 0.5%;
+	}
+	
+	.contact li {
+		opacity: 1;
+	}
+	
+	.status {
+		font-size: 1.2em;
+	}
+
+	.contact img {
+		width: 7.5%;
+		height: 7.5%;
+	}
+
+	figure figcaption {
+		font-size: 140%;
+	}
+
+	figure h1 {
+		font-size: 300%;
+		font-weight: bold;
+	}
+
+	nav li {
+		margin: 0 0.15em;
+		width: 15.5%;
+		font-size: 1.8em;
+	}
+	
+	nav li:hover {
+		height: 1.5em;
+	}	
+		
+	nav li:first-letter {
+		font-size: 1.1em;
+	}
+
+	article {
+		margin: 5.7% 0 5.7% 0;
+		width: 99.5%;
+		box-shadow: 0 0.5em 0 #777;
+	}
+
+	#name {
+		width: 16%;
+		font-size: 1.1em;
+	}
+
+	#button {
+		margin: 2.5% 0 2.5% 0;
+		width: 20%;
+		font-size: 1.1em;
+	}
+
+	textarea {
+		width: 40%;
+		margin-top: -0.1%;
+		font-size: 1.2em;
+		border-radius: none;
+	}
+
+	.login {
+		margin-top: -4%;
+		.
+	}
+
+	article h1 {
+		font-family: Copperplate-Bold, Century Gothic, Sans-Serif;
+		font-size: 2.5em;
+	}
+
+	article p {
+		font-size: 1.5em;
+	}
+
+	.contact form input {
+		width: 4.5%;
+		height: 2.5%;
+	}
+
+	footer {
+		font-size: 1em;
+		width: 101%;
+	}
+}
+
+
+/******************************************
+ 
+		iPad Mini Portrait View 
+		
+*******************************************/
+
+@media screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : portrait) {
+
+	.content {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.contact li {
+		opacity: 1;
+	}
+	
+	.status {
+		text-align: center;
+		margin-left: 30%;
+	}
+
+	.contact img {
+		width: 9%;
+		height: 9%;
+	}
+
+	figure h1, figure figcaption {
+		text-align: center;
+	}
+	
+	figure figcaption {
+		margin: -2% 0 10% 0;
+		font-size: 200%;
+	}
+
+	figure h1 {
+		font-size: 380%;
+		font-weight: bold;
+	}
+
+	nav li {
+		width: 20.5%;
+		font-size: 2.29em;
+	}
+	
+	nav li:hover {
+		height: 1.6em;
+	}
+	
+	nav li:first-letter {
+		font-size: 1.2em;
+	}
+	
+	article {
+		margin-top: 10.7%;
+		box-shadow: 0 0.6em 0 #777;
+	}
+
+	article h1 {
+		font-family: Copperplate-Bold, Century Gothic, Sans-Serif;
+		font-size: 3em;
+	}
+
+	.contact {
+		width: 100%;
+	}
+
+	button {
+		font-size: 1.1em;
+	}
+
+	#name {
+		width: 18%;
+		font-size: 1.1em;
+	}
+
+	textarea {
+		width: 40%;
+		margin-top: -0.1%;
+		font-size: 1.2em;
+	}
+
+	article p {
+		font-size: 2em;
+	}
+
+	footer {
+		margin-bottom: -6%;
+		font-size: 1.5em;
+		width: 101%;
+	}
+}
+
+
+
+
+/***************************************
+
+		Smartphones (portrait)
+		
+****************************************/
+
+@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 568px) 
+	and (orientation : portrait) {
+	.content {
+		position: relative;
+		width: 99%;
+		margin: 0 auto;
+		right: 0.5%;
+	}
+
+	figure {
+		text-align: center;
+	}
+
+	figure h1 {
+		font-size: 5.7em;
+	}
+
+	figure figcaption {
+		font-size: 3.2em;
+	}
+
+	nav li {
+		margin-top: 5%;
+		font-size: 3.2em;
+		width: 26.5%;
+	}
+
+	.contact img {
+		width: 11%;
+		height: 11%;
+	}
+
+	article {
+		margin-top: 13.4%;
+		box-shadow: 0 0.6em 0 #777;
+	}
+
+	article h1 {
+		margin-top: 1%;
+		font-family: Copperplate-Bold, Century Gothic, Sans-Serif;
+		font-size: 4.5em;
+	}
+
+	article p {
+		font-size: 3.5em;
+	}
+
+	footer {
+		font-size: 3em;
+		width: 100%;
+	}
+}
