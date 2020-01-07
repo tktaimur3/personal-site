@@ -28,9 +28,8 @@
 <article>
 				<h1>Hello!</h1>
 				
-				<p>This is a site I made with fluid design in mind.</p>
-				
-				<p>This is my website. I will probably be showing people my creations in <span>Javascript</span> or other programming languages on this website.
-				I will also be giving updates of what's going on in my life, sort of like a blog!</p>
+				<p>This is a site I made as a personal project. It was originally made as a small test site I created but 
+				eventually became something bigger. It turned into what was essentially a way to see what I could do with 
+				the skills I have and how much I can learn.</p>
 </article>
 <?php include 'index (2).php'; ?>

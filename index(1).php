@@ -21,7 +21,7 @@
 		<div class="content">
 			<header>
 				<figure>
-					<img src="pictures/GameLogo.png" style="width: 7%; padding-bottom: 2%;">
+					<h1>Taimur's Site</h1>
 					<figcaption>
 						
 					</figcaption>

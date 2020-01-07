@@ -43,27 +43,6 @@
 			</a>
 		</li>
 	</ul>
-	<?php if (@$_SESSION['loggedIn'] === true) {?>
-	<hr>
-	<p style="text-align: center">You can also E-Mail me by typing in the fields below:</p>
-	<form action="post.php" method="post">
-		<center>
-			<p style="margin-top: 3%; margin-bottom: -0.1%;"><strong style="color: red">*</strong> Message:</p>
-			<textarea class="input" name="message" rows="4" autocomplete='off' cols="30" required formnovalidate></textarea>
-		</center>
-				
-		<center>
-			<input id="button" type="submit" value="Submit Feedback!" style="margin-top: 10px"></input>
-		</center>
-	</form>
-	<?php 
-	} 
-	else {
-	?>
-	<p style="text-align: center">Hey! Please <a href="login.php">Login</a> to send me feedback via E-mail!</p>
-	<?php 
-	}
-	?>
 </article>
 
 <?php include 'index (2).php'; ?>

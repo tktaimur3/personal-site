@@ -39,16 +39,6 @@
 
 			<p>To play <a href="lonelycube.html">click here</a></p>
 
-			<br>
-			<hr>
-			<br>
-
-			<h3>Website UI</h3>
-			<p>Here is my new website UI 'concept' if you will. It is focused on simplicity and not to be so cluttered.</p>
-
-			<p>Screenshot(s):</p>
-			<img src="http://imgur.com/UEOKABk.jpg" style="width: 55%; height: 55%">
-
 		</article>
 	</body>
 </html>
