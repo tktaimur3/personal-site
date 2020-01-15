@@ -29,7 +29,7 @@
 				<h1>Hello!</h1>
 				
 				<p>This is a site I made as a personal project. It was originally made as a small test site I created but 
-				eventually became something bigger. It turned into what was essentially a way to see what I could do with 
-				the skills I have and how much I can learn.</p>
+				eventually became something bigger. It turned into what was essentially a way to see what I could do; to explore 
+				how far my skills could get me. This is the result!</p>
 </article>
 <?php include 'index (2).php'; ?>

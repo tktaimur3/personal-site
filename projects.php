@@ -25,19 +25,16 @@
 </nav>
 <article>
 			<h1>My Projects</h1>
-			<p style="text-align: center">This is where you find projects I am currently working on such as games, sites, graphical work, etc.</p>
-
 			<hr>
-
-			<h2>Most Recent Projects:</h2>
 
 			<br>
 
-			<h3>Lonely Cube</h3>
-			<p>Here is my latest project, a game called Lonely Cube, it is FAR from done (only 3 levels, more in the future) and it is very unpolished.</p>
-			<p>Made in Unity, you play as a cube who is trying to find its way out of levels that progress with difficulty. Along the way you find bad guys who probably aren't so friendly and want you to fail, but that won't stop you.</p>
-
-			<p>To play <a href="lonelycube.html">click here</a></p>
+			<h3>Rubik's Cube Timer and Scrambler</h3>
+			<p>This is a program I made with a partner for a project in grade 12 Computer Science class.</p>
+			<p>Targeted towards Rubik's Cube hobbyists, it allows them to scramble their Rubik's cube with a randomly generated scramble and then time their solve.
+			Their times are then stored so they can be accessed and so the averages can be calculated</p>
+			<p>To download <a href="rubix.jar">click here</a></p>
+			<p>Note: in the directory that the jar file is placed, it will create a src folder which stores the times</p>
 
 		</article>
 	</body>

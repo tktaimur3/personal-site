@@ -27,15 +27,12 @@
 <article>
 	<h1><strong>About</strong></h1>
 
-	<p>This website is basically a test site (Or maybe even full site) that I will be using to update about myself, and learn more CSS and HTML.</p>
+	<p>This website is basically a test site that I used to learn more CSS, HTML, SQL, and PHP.</p>
 
-	<p>I learned most of my coding skills from Codecademy. Though
-	I did learn better website making skills from Codeschool. Before I learned HTML and CSS, I used to program in Java and C#,
-	it was fun to program in those languages but I just felt I really didn't like these languages. Then I decided to learn
-	HTML, and boy was it a good idea because I learned a LOT from it and I became more used to creating websites.</p>
-
-	<p>At first, when learning with Codecademy, I wasn't really good at making websites. I didn't know how to properly design websites, make them look good, 
-	what kind of features I should add but after I started learning with Codeschool it became easier. But I still thank Codecademy for starting me off.</p>
+	<p>I learned most of my early coding skills from Codecademy. That site allowed me to learn programming quickly, but I found I still had a lot to learn even after using
+	it. From there I decided to learn about PHP and used that to create a basic login system that my site currently has implemented. I had prior experience with Java before
+	learning about HTML and CSS but later learned about it through school and my own small applications. In school as well as in online course I learned Python and used that
+	to make some small scripts.</p>
 	
 </article>
 
